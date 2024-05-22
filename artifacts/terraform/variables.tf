@@ -27,7 +27,7 @@ variable "ansible_user" {
 }
 
 variable "amis" {
-  type = "map"
+  type = map
 
   default = {
     ap-northeast-1 = "ami-b25d44b3" # Asia Pacific (Tokyo)
